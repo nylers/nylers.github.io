@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48b3259-c48a-4c98-ab1e-d120eb871b1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/template.v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/template.v2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

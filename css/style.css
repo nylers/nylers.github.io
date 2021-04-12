@@ -4,6 +4,12 @@
   height: 400px;
 }
 
+#Teaser_shankar {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
 #Teaser > svg {
   display: block;
 }

@@ -2100,10 +2100,16 @@ d-appendix > distill-appendix {
       `).join('')}
     </div>
     <div>
-      <h3>Pitch</h3>
+      <h3>Business Pitch</h3>
       ${frontMatter.publishedDate ? `
         <p>${frontMatter.publishedMonth} ${frontMatter.publishedDay}, ${frontMatter.publishedYear}</p> ` : `
         <p><em>[ Put Link Here ]</em></p>`}
+    </div>
+    <div>
+      <h3>Key People</h3>
+      ${frontMatter.publishedDate ? `
+        <p>${frontMatter.publishedMonth} ${frontMatter.publishedDay}, ${frontMatter.publishedYear}</p> ` : `
+        <p><em>...</em></p>`}
     </div>
   </div>
 `;

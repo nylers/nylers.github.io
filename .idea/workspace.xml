@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b48b3259-c48a-4c98-ab1e-d120eb871b1d" name="Default Changelist" comment="" />
+    <list default="true" id="b48b3259-c48a-4c98-ab1e-d120eb871b1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bundle.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +37,13 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1617844130103">
+    <state x="393" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1618235576105">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="393" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1617844130103" />
+    <state x="393" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1618235576105" />
   </component>
 </project>

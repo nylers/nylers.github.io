@@ -114,3 +114,9 @@ rect.plot {
   stroke: none;
 }
 
+/* -------------------------------- */
+/* CUSTOM Styles */
+.headertekst {
+   text-align: center;
+}
+/* -------------------------------- */

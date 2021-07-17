@@ -2085,31 +2085,31 @@ d-appendix > distill-appendix {
   <div class="byline grid">
     <div class="authors-affiliations grid">
       <h3>Product Visualization </h3>
-      <h3>Math Theory</h3>
+      <h3>GitHub</h3>
       ${frontMatter.authors.map(author => `
         <p class="author">
           ${author.personalURL ? `
             <a class="name" href="${author.personalURL}">${author.name}</a>` : `
-            <span class="name">${author.name}</span>`}
+            <span class="name">${author.name} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>`}
         </p>
         <p class="affiliation">
         ${author.affiliations.map(affiliation =>
-          affiliation.url ? `<a class="affiliation" href="${affiliation.url}">${affiliation.name}</a>` : `<span class="affiliation">${affiliation.name}</span>`
+          affiliation.url ? `<a class="affiliation" href="${affiliation.url}">${affiliation.name}</a>` :
+          `<span class="affiliation">${affiliation.name}</span>`
         ).join(', ')}
         </p>
       `).join('')}
     </div>
     <div>
-      <h3>Business Pitch</h3>
+      <h3>Theory</h3>
       ${frontMatter.publishedDate ? `
         <p>${frontMatter.publishedMonth} ${frontMatter.publishedDay}, ${frontMatter.publishedYear}</p> ` : `
-        <p><em>[ Put Link Here ]</em></p>`}
+        <p class="name">November, 2021</p>`}
     </div>
     <div>
-      <h3>Key People</h3>
-      ${frontMatter.publishedDate ? `
-        <p>${frontMatter.publishedMonth} ${frontMatter.publishedDay}, ${frontMatter.publishedYear}</p> ` : `
-        <p><em>...</em></p>`}
+      <h3>People</h3>
+        <p class="author"> Sukrit Shashi Shankar </p>
+        <p class="author"> Yalda Zadeh </p>
     </div>
   </div>
 `;

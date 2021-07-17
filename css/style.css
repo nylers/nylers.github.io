@@ -115,8 +115,17 @@ rect.plot {
 }
 
 /* -------------------------------- */
+/* CUSTOM Colors */
+
+/* -------------------------------- */
 /* CUSTOM Styles */
+h1 {
+color:rgb(146,32,66,1); /* nylers_red */
+text-align: center;
+}
+
 .headertekst {
    text-align: center;
 }
+
 /* -------------------------------- */

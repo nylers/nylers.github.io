@@ -2084,7 +2084,7 @@ d-appendix > distill-appendix {
     return `
   <div class="byline grid" style="text-align:center;">
     <div class="authors-affiliations grid">
-      <h3>Product</h3>
+      <h3>Product Glimpse</h3>
       <h3>GitHub</h3>
       <p class="author"> <span class="name">August | 2021 </span> </p>
       <p class="author"> <span class="name">September | 2021</span> </p>

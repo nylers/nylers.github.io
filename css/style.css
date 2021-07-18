@@ -21,9 +21,9 @@
 
 .shaded-figure {
   background-color: hsl(200, 20%, 97%);
-  border-top: 1px solid hsla(0, 0%, 0%, 0.1);
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
-  padding: 30px 0;
+  border-top: 0px solid hsla(0, 0%, 0%, 0.1);
+  border-bottom: 0px solid hsla(0, 0%, 0%, 0.1);
+  padding: 10px 0;
   overflow-x: auto;
 }
 
@@ -116,12 +116,14 @@ rect.plot {
 
 /* -------------------------------- */
 /* CUSTOM Colors */
+/* nylers_red = rgba(146,32,66,1) */
 
 /* -------------------------------- */
 /* CUSTOM Styles */
 h1 {
-color:rgb(146,32,66,1); /* nylers_red */
+color:rgba(146,32,66,1); /* nylers_red */
 text-align: center;
+padding-bottom: 20px;
 }
 
 .headertekst {

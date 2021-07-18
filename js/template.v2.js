@@ -2084,7 +2084,7 @@ d-appendix > distill-appendix {
     return `
   <div class="byline grid">
     <div class="authors-affiliations grid">
-      <h3>Product Visualization </h3>
+      <h3>Product </h3>
       <h3>GitHub</h3>
       ${frontMatter.authors.map(author => `
         <p class="author">
@@ -2092,10 +2092,10 @@ d-appendix > distill-appendix {
             <a class="name" href="${author.personalURL}">${author.name}</a>` : `
             <span class="name">${author.name} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>`}
         </p>
-        <p class="affiliation">
+        <p class="author">
         ${author.affiliations.map(affiliation =>
           affiliation.url ? `<a class="affiliation" href="${affiliation.url}">${affiliation.name}</a>` :
-          `<span class="affiliation">${affiliation.name}</span>`
+          `<span class="author">${affiliation.name}</span>`
         ).join(', ')}
         </p>
       `).join('')}
@@ -2104,7 +2104,7 @@ d-appendix > distill-appendix {
       <h3>Theory</h3>
       ${frontMatter.publishedDate ? `
         <p>${frontMatter.publishedMonth} ${frontMatter.publishedDay}, ${frontMatter.publishedYear}</p> ` : `
-        <p class="name">November, 2021</p>`}
+        <p class="author">November, 2021</p>`}
     </div>
     <div>
       <h3>People</h3>

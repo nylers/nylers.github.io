@@ -131,7 +131,7 @@ padding-bottom: 20px;
 }
 
 .logo_insert {
-  align: center;
+  text-align: center;
   display: flex;
   justify-content: center;
   display: block;

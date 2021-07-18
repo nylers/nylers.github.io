@@ -67,12 +67,7 @@
   var topPos = getElemDistance(document.getElementById("ss_front_matter")) + getElemDistance(document.getElementById("ss_logo")) + getElemDistance(document.getElementById("ss_title"));
   var elementHeight = element.offsetHeight;
 
-  // document.write (window.innerWidth + "\n");
-  // document.write (window.innerHeight + "\n");
-  // document.write (topPos + "\n");
-  // document.write (elementHeight);
-
-  // document.getElementById("ss_front_matter").style.paddingBottom = (window.innerHeight - elementHeight - topPos) + "px";
+  document.getElementById("ss_front_matter").style.paddingBottom = (window.innerHeight - elementHeight - topPos - 180) + "px";
 </script>
 </body>
 </html>

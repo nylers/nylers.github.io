@@ -20,7 +20,6 @@
 <!----------------------------------------------------------------->
 <!-- Landing Page Information (is displayed in the byline panel) -->
 <!----------------------------------------------------------------->
-
 <d-front-matter>
   <script type="text/json">{
   "title": "The Design of Understanding",
@@ -39,17 +38,42 @@
 <!-------------------->
 <!-- Title and Logo -->
 <!-------------------->
-<d-title style="padding-bottom: 0">
+<d-title id = "ss_title" style="padding-bottom: 0">
   <h1>The Design of Understanding</h1>
 </d-title>
-<div style="text-align:center;">
+<div id = "ss_logo" style="text-align:center;">
   <img class="logo_insert" src="images/LOGO_nylers_decent.png" alt="Nylers Logo">
 </div>
 
 <!---------------------------------------->
 <!-- Byline (displays the front matter) -->
 <!---------------------------------------->
-<d-byline class="shaded-figure" style="padding-bottom:30px; padding-top:30px;"></d-byline>
+<d-byline id = "ss_front_matter" class="shaded-figure" style="padding-bottom:30px; padding-top:30px;"></d-byline>
+<script>
+  // Get an element's distance from the top of the page
+  var getElemDistance = function (elem)
+  {
+      var location = 0;
+      if (elem.offsetParent) {
+          do {
+              location += elem.offsetTop;
+              elem = elem.offsetParent;
+          } while (elem);
+      }
+      return location >= 0 ? location : 0;
+  };
+
+  var element = document.getElementById("ss_front_matter");
+  var topPos = getElemDistance(document.getElementById("ss_front_matter")) + getElemDistance(document.getElementById("ss_logo")) + getElemDistance(document.getElementById("ss_title"));
+  var elementHeight = element.offsetHeight;
+
+  // document.write (window.innerWidth + "\n");
+  // document.write (window.innerHeight + "\n");
+  // document.write (topPos + "\n");
+  // document.write (elementHeight);
+
+  // document.getElementById("ss_front_matter").style.paddingBottom = (window.innerHeight - elementHeight - topPos) + "px";
+</script>
 </body>
 </html>
 

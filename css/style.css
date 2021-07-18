@@ -130,4 +130,14 @@ padding-bottom: 20px;
    text-align: center;
 }
 
+.logo_insert {
+  display: flex;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20%;
+  width: 20%;
+}
+
 /* -------------------------------- */

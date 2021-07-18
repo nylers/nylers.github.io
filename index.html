@@ -35,20 +35,23 @@
   }</script>
 </d-front-matter>
 
-<!-------------------->
-<!-- Title and Logo -->
-<!-------------------->
-<d-title id = "ss_title" style="padding-bottom: 0">
-  <h1>The Design of Understanding</h1>
-</d-title>
-<div id = "ss_logo" style="text-align:center;">
-  <img class="logo_insert" src="images/LOGO_nylers_decent.png" alt="Nylers Logo">
+<div style="text-align: center;">
+  <!-------------------->
+  <!-- Title and Logo -->
+  <!-------------------->
+  <d-title id = "ss_title" style="padding-bottom:0px; text-align:center;">
+    <h1>The Design of Understanding</h1>
+  </d-title>
+  <div id = "ss_logo" style="text-align:center;">
+    <img class="logo_insert" src="images/LOGO_nylers_decent.png" alt="Nylers Logo">
+  </div>
+
+  <!---------------------------------------->
+  <!-- Byline (displays the front matter) -->
+  <!---------------------------------------->
+  <d-byline id = "ss_front_matter" class="shaded-figure" style="text-align:center;padding-bottom:40px; padding-top:35px;"></d-byline>
 </div>
 
-<!---------------------------------------->
-<!-- Byline (displays the front matter) -->
-<!---------------------------------------->
-<d-byline id = "ss_front_matter" class="shaded-figure" style="padding-bottom:35px; padding-top:35px;"></d-byline>
 <script>
   // Get an element's distance from the top of the page
   var getElemDistance = function (elem)
@@ -67,7 +70,7 @@
   var topPos = getElemDistance(document.getElementById("ss_front_matter")) + getElemDistance(document.getElementById("ss_logo")) + getElemDistance(document.getElementById("ss_title"));
   var elementHeight = element.offsetHeight;
 
-  document.getElementById("ss_front_matter").style.paddingBottom = (window.innerHeight - elementHeight - topPos - 160) + "px";
+  document.getElementById("ss_front_matter").style.paddingBottom = (window.innerHeight - elementHeight - topPos - 140) + "px";
 </script>
 </body>
 </html>

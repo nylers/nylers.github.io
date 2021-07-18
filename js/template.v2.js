@@ -2082,34 +2082,22 @@ d-appendix > distill-appendix {
 
   function bylineTemplate(frontMatter) {
     return `
-  <div class="byline grid">
+  <div class="byline grid" style="text-align:center;">
     <div class="authors-affiliations grid">
-      <h3>Product </h3>
+      <h3>Product</h3>
       <h3>GitHub</h3>
-      ${frontMatter.authors.map(author => `
-        <p class="author">
-          ${author.personalURL ? `
-            <a class="name" href="${author.personalURL}">${author.name}</a>` : `
-            <span class="name">${author.name} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>`}
-        </p>
-        <p class="author">
-        ${author.affiliations.map(affiliation =>
-          affiliation.url ? `<a class="affiliation" href="${affiliation.url}">${affiliation.name}</a>` :
-          `<span class="author">${affiliation.name}</span>`
-        ).join(', ')}
-        </p>
-      `).join('')}
+      <p class="author"> <span class="name">August | 2021 </span> </p>
+      <p class="author"> <span class="name">September | 2021</span> </p>
     </div>
     <div>
-      <h3>Theory</h3>
-      ${frontMatter.publishedDate ? `
-        <p>${frontMatter.publishedMonth} ${frontMatter.publishedDay}, ${frontMatter.publishedYear}</p> ` : `
-        <p class="author">November, 2021</p>`}
+      <h3>Math & THEORY</h3>
+      <p class="author"><span class="name">October | 2021</span></p>
+      <p class="author"><span class="name">December | 2021</span></p>
     </div>
     <div>
-      <h3>People</h3>
-        <p class="author"> Sukrit Shashi Shankar </p>
-        <p class="author"> Yalda Zadeh </p>
+      <h3>Key People</h3>
+      <p class="author"> <span class="name"> Sukrit Shashi Shankar </span></p>
+      <p class="author"> <span class="name"> Yalda Zadeh </span></p>
     </div>
   </div>
 `;

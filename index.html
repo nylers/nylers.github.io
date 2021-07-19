@@ -35,26 +35,25 @@
   }</script>
 </d-front-matter>
 
-<div style="text-align: center;">
-  <!-------------------->
-  <!-- Title and Logo -->
-  <!-------------------->
-  <d-title id = "ss_title" style="padding-bottom:0px; text-align:center;">
-    <h1>The Design of Understanding</h1>
-  </d-title>
-  <div id = "ss_logo" style="text-align:center;">
-    <img class="logo_insert" src="images/LOGO_nylers_decent.png" alt="Nylers Logo">
-  </div>
+<!-------------------->
+<!-- Title and Logo -->
+<!-------------------->
+<d-title id = "ss_title" class="ss_title_style">
+  <h1>The Design of Understanding</h1>
+</d-title>
+<d-figure id = "ss_logo" style="text-align:center;">
+  <img class="logo_insert" src="images/LOGO_nylers_decent.png" alt="Nylers Logo">
+</d-figure>
 
-  <!---------------------------------------->
-  <!-- Byline (displays the front matter) -->
-  <!---------------------------------------->
-  <d-byline id = "ss_front_matter" class="shaded-figure" style="text-align:center;padding-bottom:40px; padding-top:35px;"></d-byline>
-</div>
+<!---------------------------------------->
+<!-- Byline (displays the front matter) -->
+<!-- We can also with Shaded Figure ------>
+<!---------------------------------------->
+<d-byline id = "ss_front_matter" class="shaded-figure ss_front_matter_style"></d-byline>
 
 <script>
   // Get an element's distance from the top of the page
-  var getElemDistance = function (elem)
+  function getElemDistance (elem)
   {
       var location = 0;
       if (elem.offsetParent) {
@@ -66,11 +65,15 @@
       return location >= 0 ? location : 0;
   };
 
-  var element = document.getElementById("ss_front_matter");
-  var topPos = getElemDistance(document.getElementById("ss_front_matter")) + getElemDistance(document.getElementById("ss_logo")) + getElemDistance(document.getElementById("ss_title"));
-  var elementHeight = element.offsetHeight;
+  window.onload = function()
+  {
+    var element = document.getElementById("ss_front_matter");
+    var topPos = getElemDistance(element) + getElemDistance(document.getElementById("ss_logo")) + getElemDistance(document.getElementById("ss_title"));
+    var elementHeight = element.offsetHeight;
 
-  document.getElementById("ss_front_matter").style.paddingBottom = (window.innerHeight - elementHeight - topPos - 140) + "px";
+    // document.getElementById("ss_front_matter").style.paddingBottom = (window.innerHeight - topPos) + "px";
+  };
+
 </script>
 </body>
 </html>

@@ -131,14 +131,37 @@ padding-bottom: 20px;
 }
 
 .logo_insert {
-  text-align: center;
+  display: flex;
+  display: -webkit-flex;
   justify-content: center;
-  display: block;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
   min-width:300px;
   height: auto;
+}
+
+.ss_title_style {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  padding-bottom:0px;
+}
+
+.ss_front_matter_style {
+  text-align:center;
+  padding-bottom:40px;
+  padding-top:35px;
+}
+
+.ss_font {
+font-weight: 400;
 }
 
 /* -------------------------------- */

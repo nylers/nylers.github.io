@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b48b3259-c48a-4c98-ab1e-d120eb871b1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/template.v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/template.v2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +46,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="548" y="356" key="VCS.ChangelistChooser/0.25.1440.875@0.25.1440.875" timestamp="1626543332354" />
-    <state x="393" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1628412494460">
+    <state x="393" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1629619539684">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="393" y="250" key="com.intellij.ide.util.TipDialog/0.25.1440.875@0.25.1440.875" timestamp="1628412494460" />
+    <state x="393" y="250" key="com.intellij.ide.util.TipDialog/0.25.1440.875@0.25.1440.875" timestamp="1629619539684" />
     <state x="356" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1626575705205">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

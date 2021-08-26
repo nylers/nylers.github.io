@@ -2086,12 +2086,12 @@ d-appendix > distill-appendix {
     <div class="authors-affiliations grid">
       <h3>Product Glimpse</h3>
       <h3>GitHub</h3>
-      <p class="author"> <span class="name ss_font">August | 2021 </span> </p>
-      <p class="author"> <span class="name ss_font">September | 2021</span> </p>
+      <p class="author"> <span class="name ss_font">September | 2021 </span> </p>
+      <p class="author"> <span class="name ss_font">October | 2021</span> </p>
     </div>
     <div>
-      <h3>Math & THEORY</h3>
-      <p class="author"><span class="name ss_font">October | 2021</span></p>
+      <h3>Math & ALL THEORY</h3>
+      <p class="author"><span class="name ss_font">November | 2021</span></p
       <p class="author"><span class="name ss_font">December | 2021</span></p>
     </div>
     <div>

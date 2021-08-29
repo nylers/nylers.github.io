@@ -2097,7 +2097,7 @@ d-appendix > distill-appendix {
     <div>
       <h3>Key People</h3>
       <p class="author"> <span class="name ss_font"> Sukrit Shankar </span></p>
-      <p class="author"> <span class="name ss_font"> Yalda Shankar Zadeh </span></p>
+      <p class="author"> <span class="name ss_font"> Yalda Zadeh </span></p>
     </div>
   </div>
 `;

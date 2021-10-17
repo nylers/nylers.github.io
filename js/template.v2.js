@@ -2086,18 +2086,18 @@ d-appendix > distill-appendix {
     <div class="authors-affiliations grid">
       <h3>Product Glimpse</h3>
       <h3>GitHub</h3>
-      <p class="author"> <span class="name ss_font">September | 2021 </span> </p>
-      <p class="author"> <span class="name ss_font">October | 2021</span> </p>
+      <p class="author"> <span class="name ss_font">January | 2022 </span> </p>
+      <p class="author"> <span class="name ss_font">February | 2022</span> </p>
     </div>
     <div>
       <h3>Math & ALL THEORY</h3>
-      <p class="author"><span class="name ss_font">November | 2021</span></p
-      <p class="author"><span class="name ss_font">December | 2021</span></p>
+      <p class="author"><span class="name ss_font">March | 2022</span></p>
+      <p class="author"><span class="name ss_font">April | 2022</span></p>
     </div>
     <div>
       <h3>Key People</h3>
-      <p class="author"> <span class="name ss_font"> Sukrit Shankar </span></p>
-      <p class="author"> <span class="name ss_font"> Yalda Shankar Zadeh </span></p>
+      <p class="author"> <span class="name ss_font"> Sukrit Shashi Shankar </span></p>
+      <p class="author"> <span class="name ss_font"> Yalda Zadeh </span></p>
     </div>
   </div>
 `;
